@@ -12,7 +12,7 @@ $subject = 'Viva Landing: Заявка на тур';
 $headers = "From: $from\r\n";
 $headers .= "Content-type: text/html; charset=\"utf-8\"";
 
-$message = '<div style="color: #e76915; font-weight: bold;">Была оставлена заявка на LP "о.Занзибар" в ' . date('G:i') . "</div><br>\n\n";
+$message = '<div style="color: #e76915; font-weight: bold;">Была оставлена заявка на LP "Мексика" в ' . date('G:i') . "</div><br>\n\n";
 $message .= '<div><strong>Имя:</strong> ' . htmlspecialchars(trim($_POST['name'] ?? '')) . "</div>\n";
 $message .= '<div><strong>E-mail:</strong> ' . htmlspecialchars(trim($_POST['email'] ?? '')) . "</div>\n";
 $message .= '<div><strong>Телефон:</strong> ' . htmlspecialchars(trim($_POST['phone'] ?? '')) . "</div>\n";
