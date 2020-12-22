@@ -275,10 +275,6 @@ h6 {
   font-size: 14px;
 }
 
-.col-lg-4.col-md-6.col-sm-6.mb-2:last-child > .block-tours > .block-tours-img > .block-tours-route > p {
-  font-size: 12px;
-}
-
 .block-tours-route p svg {
   margin-right: 5px;
   color: #8cc052;
