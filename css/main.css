@@ -248,9 +248,9 @@ h6 {
 .block-tours-route {
   position: absolute;
   top: 0;
-  right: -70%;
+  right: -75%;
   font-family: 'Roboto Condensed', sans-serif;
-  width: 70%;
+  width: 75%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.7);
   color: #fff;
@@ -266,12 +266,17 @@ h6 {
 
 .block-tours-route h4 {
   font-weight: 400;
+  font-size: 1.4rem;
 }
 
 .block-tours-route p {
   text-align: left;
   font-weight: 300;
-  font-size: 15px;
+  font-size: 14px;
+}
+
+.col-lg-4.col-md-6.col-sm-6.mb-2:last-child > .block-tours > .block-tours-img > .block-tours-route > p {
+  font-size: 12px;
 }
 
 .block-tours-route p svg {
@@ -1096,7 +1101,7 @@ h6 {
   }
   .block-tours-route {
     right: -100%;
-    width: 75%;
+    width: 82%;
   }
 
   .block-tours-route h4 {
@@ -1107,6 +1112,7 @@ h6 {
     font-size: 13px;
   }
 
+  
   .route {
     right: 0;
   }
